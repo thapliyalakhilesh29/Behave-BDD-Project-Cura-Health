@@ -47,4 +47,5 @@ def step_impl(context):
     print(texts)
     assert "Home" in texts
     assert "Login" in texts
+
     context.driver.quit()
