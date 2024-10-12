@@ -9,7 +9,8 @@ Feature: Cura Health Home page
     Given Launch the Chrome Browser
     When Pass the website URL in Browser
     And Click on the Appointment Button
-    Then User should redirect to Appointment Page
+    Then User should redirect to login Page
+
 
   Scenario: Verify the functionality of Menu Button
     Given Launch the Chrome Browser
