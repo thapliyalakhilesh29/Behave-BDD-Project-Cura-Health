@@ -22,4 +22,4 @@ Feature: Verify the login page
   Scenario: Login with valid username and valid password
     Given Launch the browser and navigate to login page
     When Provide valid username and valid password
-    Then User  should redirected to Appointment page.
+    Then User  should redirected to Appointment page
